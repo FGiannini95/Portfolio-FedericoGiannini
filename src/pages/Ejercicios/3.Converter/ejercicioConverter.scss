@@ -1,0 +1,44 @@
+%converter {
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px gray;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.sectionConverter{
+  background-color: rgb(145, 118, 68);
+  min-height: 90vh;
+
+
+  .ejConverter {
+    width: 60vw;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px 5px gray;
+    border-radius: 1rem;
+    background-color: orange;
+    
+
+    &__divInput {
+      input {
+        @extend %converter;
+        width: 10vw;
+        outline: none;
+        padding: 0.5rem;
+      }
+    }
+    &__divTypeConvertion{
+      button {
+        @extend %converter;
+      }
+    }
+    &__divOptions{
+      button{
+        border: none;
+        background-color: orange;
+        border-bottom: 3px solid white;
+        margin: 1rem;
+      }
+    }
+  }
+}

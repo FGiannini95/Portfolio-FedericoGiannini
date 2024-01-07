@@ -1,0 +1,40 @@
+%calculator {
+  background-color: aquamarine;
+  box-shadow: 0px 0px 3px 3px gray;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.sectionCalculator {
+
+  background-color: rgb(83, 133, 116);
+  min-height: 90vh;
+
+  .ejCalculator {
+    width: 60vw;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px 5px gray;
+    border-radius: 1rem;
+    background-color: aquamarine;
+
+    &__divInput {
+      input {
+        @extend %calculator;
+        width: 10vw;
+        outline: none;
+        padding: 0.5rem;
+      }
+      h4 {
+        padding: 0.5rem;
+        margin: 1rem;
+      }
+    }
+
+    &__divOperator {
+      button {
+        @extend %calculator;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.sectionWeather{
+  min-height: 90vh;
+  background-color: rgb(19, 83, 99);
+
+  .ejWeather{
+    width: 60vw;
+    border: 2px dashed white;
+    border-radius: 1rem;
+    background-color: rgb(150, 225, 244);
+
+    input{
+      background-color: rgb(150, 225, 244);
+      border-radius: 1rem;
+      border: 2px solid white;
+      outline: none;
+      padding-left: 1rem;
+    }
+    button{
+      background-color: rgb(150, 225, 244);
+      border-radius: 1rem;
+      border: 2px solid white;
+      
+    }
+  }
+}

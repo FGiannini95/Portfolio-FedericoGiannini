@@ -1,0 +1,85 @@
+.sectionFarmhouse{
+  background-color: lightgreen;
+  min-height: 90vh;
+
+  .noche{
+    background-image: url("'/assets/projects/farmhouse/dia.png");
+  }
+  
+  .dia{
+    background-image: url("/assets/projects/farmhouse/noche.png");
+  }
+
+  .ejFarmhouse{
+    width: 60vw;
+    border: 3px solid green;
+    background-color: rgb(116, 203, 237);
+    position: relative;
+    border-radius: .5rem;
+
+    h2{
+      color: white;
+    }
+    
+    .sunImg{
+      width: 8vw;
+      position: absolute;
+      position: absolute;
+      left: 5vw;
+    }
+
+    .house{
+      width: 20vw;
+      position: absolute;
+      bottom: 7vw;
+      left: 8vw;
+    }
+
+    .tree{
+      width: 15vw;
+      position: absolute; 
+      bottom: 12vw;
+      right: 6vw;
+    }
+
+    .boy{
+      width: 7vw;
+      position: absolute; 
+      bottom: 3vw;
+    }
+
+    .girl{
+      width: 7vw;
+      position: absolute;
+      bottom: 3vw;
+      left: 22vw; 
+    }
+
+    .perro{
+      width: 5vw;
+      position: absolute;
+      bottom: 7vw;
+      right: 4vw;
+    }
+
+    .bird{
+      width: 14vw;
+      position: absolute;
+    }
+
+    .cloud1{
+      width: 10vw;
+      position: absolute;
+      left: 14vw;
+    }
+    .cloud2{
+      width: 6vw;
+      position: absolute;
+      left: 25vw;
+      bottom: 28vw;
+    }
+  }
+}
+.prato{
+  width: 100%;
+}

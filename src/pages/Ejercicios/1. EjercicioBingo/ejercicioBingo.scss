@@ -1,0 +1,47 @@
+.sectionBingo {
+  background-color: rgba(240, 77, 77, 0.575);
+  min-height: 90vw;
+
+  .oscuro {
+    background-color: rgba(240, 77, 77, 0.575);
+    color: white;
+  }
+
+  .ejBingo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/public/assets/projects/bingo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    width: 60vw;
+    border: 1px solid white;
+    color: white;
+
+    &__buttonNumber {
+      button {
+        border: none;
+        border-radius: 0.5rem;
+        width: 3vw;
+        font-weight: bold;
+        margin: 0.5rem;
+      }
+    }
+
+    &__congrats {
+      button {
+        border: none;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        border-radius: 0.5rem;
+        width: 10vw;
+        font-weight: bold;
+        background-color: transparent;
+        color: white;
+        margin: 0.5rem;
+      }
+    }
+    .pointNumber{
+      cursor: pointer;
+    }
+  }
+}

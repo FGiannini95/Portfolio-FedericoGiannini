@@ -1,0 +1,51 @@
+.section1 {
+
+  min-height: 90vh;
+  .cardHome {
+   
+    &__title {
+      font-size: 6rem;
+      letter-spacing: -3px;
+    }
+    &__sub {
+      font-size: 3rem;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: appearLetters 3s steps(32, end);
+    }
+    @keyframes appearLetters {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  }
+}
+
+//Medidas tablet
+@media (width <= 992px) {
+  .cardHome {
+    &__title {
+      font-size: 1rem;
+    }
+    &__sub {
+      font-size: 1.5rem;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: appearLetters 3s steps(32, end);
+      color: red;
+    }
+  }
+}
+
+// //Medidas movil
+// @media (width <= 600px) {
+//   .cardHome {
+//     &__title {
+//       font-size: 1.5rem;
+      
+//     }
+//   }
+// }
