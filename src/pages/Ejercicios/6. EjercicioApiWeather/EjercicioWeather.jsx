@@ -42,8 +42,8 @@ export const EjercicioWeather = () => {
   return (
     <section className="sectionWeather d-flex flex-column align-items-center pb-5">
       <div className="p-3">
-        <Button variant="dark" onClick={() => navigate("/project")}>
-          Go back to all projects
+        <Button variant="dark" onClick={() => navigate("/practice")}>
+          Go back to all exercises
         </Button>
       </div>
       <article className="ejWeather text-center">
@@ -52,7 +52,7 @@ export const EjercicioWeather = () => {
         </div>
         <div className="d-flex flex-column align-items-center">
           <h4>Select the city</h4>
-          <input type="text" onChange={handleChange} value={city} />
+          <input type="text" onChange={handleChange} value={city} autoFocus />
           <button className="my-2 py-2" onClick={onSubmit}>Search...🔍</button>
           <h4>{message}</h4>
         </div>

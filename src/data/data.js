@@ -20,11 +20,6 @@ export const dataEjercicios =  [
     image: 'ej02.calculator.png'
   },
   {
-    id:5,
-    name: 'Marvel',
-    image: 'ej02..png'
-  },
-  {
     id:6,
     name: 'Weather',
     image: 'ej06.weather.jpeg'
@@ -35,4 +30,5 @@ export const dataEjercicios =  [
     image: 'ej07.rickmortin.jpeg'
   }
 ]
+
 

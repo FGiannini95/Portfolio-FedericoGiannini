@@ -7,7 +7,7 @@ export const CardOneExercise = ({elem}) => {
   const navigate = useNavigate()
   return (
     <Card style={{ width: "18rem" }} className="text-center mx-2 cardOneEx">
-      <Card.Img variant="top" src={`/assets/projects/${elem.image}`} />
+      <Card.Img variant="top" src={`/assets/practice/${elem.image}`} />
       <Card.Body>
         <Card.Title>{elem.name}</Card.Title>
         <Button variant="dark" onClick={() => navigate(`/oneExercise/${elem.id}`)}>

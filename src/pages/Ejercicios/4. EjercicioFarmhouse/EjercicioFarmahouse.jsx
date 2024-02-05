@@ -24,8 +24,8 @@ export const EjercicioFarmahouse = () => {
   return (
     <section className="sectionFarmhouse d-flex flex-column align-items-center pb-5">
       <div className="p-3">
-        <Button variant="dark" onClick={() => navigate("/project")}>
-          Go back to all projects
+        <Button variant="dark" onClick={() => navigate("/practice")}>
+          Go back to all exercises
         </Button>
       </div>
       <article className={`ejFarmhouse text-center ${isDay ? "noche" : "dia"}`}>
@@ -35,54 +35,54 @@ export const EjercicioFarmahouse = () => {
         <div onClick={changeDayToNight}>
           <img
             className={`sunImg ${isDay ? "noche" : "dia"}`}
-            src={isDay ? "/assets/projects/farmhouse/sol.png" : "/assets/projects/farmhouse/luna.png"} 
+            src={isDay ? "/assets/practice/farmhouse/sol.png" : "/assets/practice/farmhouse/luna.png"} 
             alt={isDay ? "sun" : "moon"}
           />
         </div>
         <div onClick={changeHouse}>
           <img
           className="house"
-            src={house ? "/assets/projects/farmhouse/casa2.png" : "/assets/projects/farmhouse/casa1.png"} alt={house ? "Brick house" : "Wood house"} />
+            src={house ? "/assets/practice/farmhouse/casa2.png" : "/assets/practice/farmhouse/casa1.png"} alt={house ? "Brick house" : "Wood house"} />
         </div>
         <div onClick={changeTree}>
           <img 
             className="tree"
-            src={tree ? "/assets/projects/farmhouse/arbol1.png" : "/assets/projects/farmhouse/arbol3.png"} alt="Tree" />
+            src={tree ? "/assets/practice/farmhouse/arbol1.png" : "/assets/practice/farmhouse/arbol3.png"} alt="Tree" />
         </div>
         <div onClick={changeBoy}>
           <img
             className="boy"
-            src={boy ? "/assets/projects/farmhouse/chico4.png" : "/assets/projects/farmhouse/chico.png"} alt="Boy" />
+            src={boy ? "/assets/practice/farmhouse/chico4.png" : "/assets/practice/farmhouse/chico.png"} alt="Boy" />
         </div>
         <div onClick={changeGirl}>
           <img
             className="girl"
-            src={girl ? "/assets/projects/farmhouse/chica3.png" : "/assets/projects/farmhouse/chica.png"} alt="Girl" />
+            src={girl ? "/assets/practice/farmhouse/chica3.png" : "/assets/practice/farmhouse/chica.png"} alt="Girl" />
         </div>
         <div onClick={changeDog}>
           <img
             className="perro"
-            src={dog ? "/assets/projects/farmhouse/perro.png" : "/assets/projects/farmhouse/perro3.png"} alt="Girl" />
+            src={dog ? "/assets/practice/farmhouse/perro.png" : "/assets/practice/farmhouse/perro3.png"} alt="Girl" />
         </div>
         <div onClick={changeBird}>
           <img
             className="bird"
-            src={bird ?"/assets/projects/farmhouse/pajaro4.png" : "/assets/projects/farmhouse/pajaro.png"} alt="Black Birds" />
+            src={bird ?"/assets/practice/farmhouse/pajaro4.png" : "/assets/practice/farmhouse/pajaro.png"} alt="Black Birds" />
         </div>
         <div>
           <img
             className="cloud1"
-            src="/assets/projects/farmhouse/nube1.png" alt="Cloud" />
+            src="/assets/practice/farmhouse/nube1.png" alt="Cloud" />
         </div>
         <div>
           <img
             className="cloud2"
-            src= "/assets/projects/farmhouse/nube2.png"alt="Cloud" />
+            src= "/assets/practice/farmhouse/nube2.png"alt="Cloud" />
         </div>
         <div className="">
           <img
             className="prato"
-            src="/assets/projects/farmhouse/suelo.png"
+            src="/assets/practice/farmhouse/suelo.png"
             alt="Field"
           />
         </div>

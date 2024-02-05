@@ -39,10 +39,10 @@ export const EjercicioBingo = () => {
   };
 
   return (
-    <section className="sectionBingo d-flex flex-column  align-items-center">
+    <section className="sectionBingo d-flex flex-column align-items-center pb-5">
       <div className="p-3">
-        <Button variant="dark" onClick={() => navigate("/project")}>
-          Go back to all projects
+        <Button variant="dark" onClick={() => navigate("/practice")}>
+          Go back to all exercises
         </Button>
       </div>
       <Container className="ejBingo text-center">

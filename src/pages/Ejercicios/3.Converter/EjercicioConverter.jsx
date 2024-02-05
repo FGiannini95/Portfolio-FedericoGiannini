@@ -124,8 +124,8 @@ export const EjercicioConverter = () => {
   return (
     <section className="sectionConverter d-flex flex-column align-items-center pb-5">
       <div className="p-3">
-        <Button variant="dark" onClick={() => navigate("/project")}>
-          Go back to all projects
+        <Button variant="dark" onClick={() => navigate("/practice")}>
+          Go back to all exercises
         </Button>
       </div>
       <article className="ejConverter text-center">
@@ -134,7 +134,7 @@ export const EjercicioConverter = () => {
         </div>
         <div className="ejConverter__divInput">
           <h4>{conversion}</h4>
-          <input type="text" value={value} onChange={handleChange} />
+          <input type="text" value={value} autoFocus onChange={handleChange} />
         </div>
         <div className="ejConverter__divTypeConvertion p-3">
           <button onClick={() => showType(1)}>Temperature</button>

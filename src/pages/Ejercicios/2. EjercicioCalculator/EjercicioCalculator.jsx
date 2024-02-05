@@ -55,7 +55,7 @@ export const EjercicioCalculator = () => {
   return (
     <section className='sectionCalculator d-flex flex-column align-items-center pb-5'>
       <div className='p-3'>
-        <Button  variant="dark" onClick={()=>navigate('/project')}>Go back to all projects</Button>
+        <Button  variant="dark" onClick={()=>navigate('/practice')}>Go back to all exercises</Button>
       </div>
       <article className='ejCalculator text-center'>
       <div className='pt-3'>
@@ -66,6 +66,7 @@ export const EjercicioCalculator = () => {
           type="text"
           value={num1}
           onChange={handleChange1}
+          autoFocus
         />
         <h4>{operator}</h4>
         <input 

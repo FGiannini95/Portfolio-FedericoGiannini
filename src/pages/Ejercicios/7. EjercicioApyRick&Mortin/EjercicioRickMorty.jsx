@@ -45,8 +45,8 @@ export const EjercicioRickMorty = () => {
   return (
     <section className="sectionRickMorty d-flex flex-column align-items-center pb-5">
       <div className="p-3">
-        <Button variant="dark" onClick={() => navigate("/project")}>
-          Go back to all projects
+        <Button variant="dark" onClick={() => navigate("/practice")}>
+          Go back to all exercises
         </Button>
       </div>
       <article className="ejRickMorty d-flex flex-column align-items-center text-center py-3">

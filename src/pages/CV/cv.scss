@@ -1,0 +1,16 @@
+.viewCv{
+  width: 80vw;
+  margin: 0 auto;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+
+  &__structure{
+    height: 90%;
+  }
+  &__pdf{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+}
