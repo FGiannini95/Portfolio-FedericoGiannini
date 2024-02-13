@@ -24,6 +24,7 @@
         width: 3vw;
         font-weight: bold;
         margin: 0.5rem;
+        text-align: center;
       }
     }
 
@@ -38,6 +39,7 @@
         background-color: transparent;
         color: white;
         margin: 0.5rem;
+        text-align: center;
       }
     }
     .pointNumber{
@@ -45,3 +47,71 @@
     }
   }
 }
+
+
+@media (max-width: 915px) {
+  .sectionBingo {
+    .ejBingo {
+      &__buttonNumber {
+        button {
+          border: none;
+          border-radius: 0.5rem;
+          min-width: 1rem;
+          font-weight: bold;
+          font-size: 0.8rem;
+          margin: 0.2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 776px) {
+  .sectionBingo {
+    .ejBingo {
+      &__buttonNumber {
+        button {
+
+          font-weight: normal;
+          font-size: 0.7rem;
+          margin: 0.1rem;
+   
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 776px) {
+  .sectionBingo {
+    .ejBingo {
+      &__buttonNumber {
+        button {
+          font-size: 0.5rem;
+          margin: 0.1rem;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// @media (max-width: 600px) {
+//   .sectionBingo {
+//     .ejBingo {
+//       &__buttonNumber {
+//         button {
+//           border: none;
+//           border-radius: 0.5rem;
+//           width: 2vw;
+//           font-weight: normal;
+//           margin: 0.2rem;
+//         }
+//       }
+//     }
+//   }
+// }

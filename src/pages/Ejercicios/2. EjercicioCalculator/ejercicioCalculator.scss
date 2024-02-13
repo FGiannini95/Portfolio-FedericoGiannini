@@ -38,3 +38,22 @@
     }
   }
 }
+
+
+@media (max-width: 600px) {
+  .sectionCalculator{
+    .ejCalculator{
+      &__divInput {
+        input {
+          min-width: 3rem;
+          margin: 0.5rem;
+        }
+      }
+      &__divOperator {
+        button {
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+}

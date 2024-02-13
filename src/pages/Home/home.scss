@@ -1,8 +1,6 @@
 .section1 {
-
   min-height: 90vh;
   .cardHome {
-   
     &__title {
       font-size: 6rem;
       letter-spacing: -3px;
@@ -11,7 +9,7 @@
       font-size: 3rem;
       overflow: hidden;
       white-space: nowrap;
-      animation: appearLetters 3s steps(32, end);
+      animation: appearLetters 5s steps(32, end);
     }
     @keyframes appearLetters {
       from {
@@ -24,28 +22,37 @@
   }
 }
 
-//Medidas tablet
-@media (width <= 992px) {
+@media (max-width: 800px) {
   .cardHome {
     &__title {
-      font-size: 1rem;
+      font-size: 4.5rem !important;
     }
-    &__sub {
-      font-size: 1.5rem;
-      overflow: hidden;
-      white-space: nowrap;
-      animation: appearLetters 3s steps(32, end);
-      color: red;
+    &__sub{
+      font-size: 2.2rem !important;
     }
   }
 }
 
-// //Medidas movil
-// @media (width <= 600px) {
-//   .cardHome {
-//     &__title {
-//       font-size: 1.5rem;
-      
-//     }
-//   }
-// }
+
+@media (max-width: 610px) {
+  .cardHome {
+    &__title {
+      font-size: 3rem !important;
+    }
+    &__sub{
+      font-size: 1.5rem !important;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .cardHome {
+    &__title {
+      font-size: 2.2rem !important;
+    }
+    &__sub{
+      font-size: 1.1rem !important;
+    }
+  }
+}
+

@@ -1,11 +1,8 @@
-import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./about.scss";
 
 export const About = () => {
-
-  const [showCV, setShowCV] = useState(false);
 
   return (
     <section className="sectionAbout pb-5">
@@ -13,22 +10,38 @@ export const About = () => {
         <div className="description pt-5">
           <h5>About me</h5>
           <p>
-            Interested in the tech world and eager to contribute and enrich me
-            in this sector. Great ability to adapt to any situation and to
-            create reliable working environments that stimulate teamwork. I
-            stand out for a hight organizational capacity and a strong
-            commitment in anything I do.
+            After a robust experience in the social sphere, focused on
+            integration programs and humanitarian assistance, I have opted for a
+            career shift. I decided to explore a sector that has always piqued
+            my interest. In detail, I completed a training program as a Full
+            Stack Web Developer.
           </p>
+          <p>
+            This change signifies my desire to merge technical skills with a
+            passion for making a positive impact in the digital realm. My
+            competencies span both frontend and backend development, database
+            management, and agile methodologies.
+          </p>
+          <p>
+            I am thrilled to embark on this new professional chapter, where I
+            aim to apply my knowledge and expertise in web development to craft
+            innovative and meaningful solutions My goal is to contribute to the
+            growth and success of technological projects that benefit society
+            positively.
+          </p>
+
           <h5>My interests</h5>
           <p>
-            I regulary practice brazilian Jiu-jitsu and padel. From time to
-            time, I like to challenge my limits and prepare long-distance races.
-            I am passionate about history, traveling and discovering new
-            cultures.
+            When I am away from the computer, I immerse myself in Brazilian
+            Jiu-jitsu and padel. Occasionally, I enjoy pushing my boundaries by
+            preparing for long-distance races. I am passionate about history,
+            traveling and discovering new cultures.
           </p>
           <div className="text-center">
-          <Link to="/cv">
-            <Button variant="dark" className="m-3">Open resume</Button>
+            <Link to="/cv">
+              <Button variant="dark" className="m-3">
+                Open resume
+              </Button>
             </Link>
           </div>
         </div>

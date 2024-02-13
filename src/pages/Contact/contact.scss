@@ -1,20 +1,30 @@
-.sectionContact{
+.sectionContact {
+  width: 60vw;
+  &__connect{
+    h3{
+      font-size: 4.5rem;
+    }
+  }
+}
 
-  .contactDiv{
-    border: 2px solid black;
-    border-radius: 1rem;
-    background-color: black;
-    color: white;
-    width: 61vw;
-    padding: 1rem;
+.link{
+  font-size: 2.5rem;
+}
+
+@media (width <= 760px) {
+  .sectionContact__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
   }
-  .FG{
-    border: 1px solid black;
-    background-color: rgb(126, 131, 129);
-    border-radius: 50%;
-    width: 10vw;
-  }
-  .link{
-    text-decoration: underline;
+}
+
+@media (width <= 500px) {
+  .sectionContact__connect {
+    h3{
+      font-size: 3.0rem;
+    }
   }
 }
