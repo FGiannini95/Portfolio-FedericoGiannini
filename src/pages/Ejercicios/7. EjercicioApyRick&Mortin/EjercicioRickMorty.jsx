@@ -19,7 +19,6 @@ export const EjercicioRickMorty = () => {
     axios
       .get("https://rickandmortyapi.com/api/character")
       .then((res)=>{
-        console.log(res.data);
         setDatos(res.data)
         setInfoFicha(res.data.results[0])
       })
@@ -32,7 +31,6 @@ export const EjercicioRickMorty = () => {
     axios
       .get(`https://rickandmortyapi.com/api/${categ}`)
       .then((res)=>{
-        console.log(res.data);
         setDatos(res.data)
         setInfoFicha(res.data.results[0])
         setCategActual(categ)

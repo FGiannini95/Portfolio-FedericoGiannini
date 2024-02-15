@@ -1,0 +1,13 @@
+.sectionRegion{
+background-color: rgb(205, 202, 202);
+min-height: 100vh;
+.ejRegion{
+  width: 60vw;
+
+  .cardImage {
+    height: 200px !important; /* Altura fija para la imagen */
+    object-fit: center; /* Ajuste de la imagen */
+  }
+}
+}
+

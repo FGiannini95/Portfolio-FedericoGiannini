@@ -1,6 +1,6 @@
 .sectionBingo {
   background-color: rgba(240, 77, 77, 0.575);
-  min-height: 45vw;
+  min-height: 100vh;
 
   .oscuro {
     background-color: rgba(240, 77, 77, 0.575);
@@ -72,11 +72,9 @@
     .ejBingo {
       &__buttonNumber {
         button {
-
           font-weight: normal;
           font-size: 0.7rem;
           margin: 0.1rem;
-   
         }
       }
     }
@@ -98,20 +96,3 @@
 
 
 
-
-
-// @media (max-width: 600px) {
-//   .sectionBingo {
-//     .ejBingo {
-//       &__buttonNumber {
-//         button {
-//           border: none;
-//           border-radius: 0.5rem;
-//           width: 2vw;
-//           font-weight: normal;
-//           margin: 0.2rem;
-//         }
-//       }
-//     }
-//   }
-// }

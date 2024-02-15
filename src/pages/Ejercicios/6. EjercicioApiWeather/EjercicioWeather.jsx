@@ -57,7 +57,9 @@ export const EjercicioWeather = () => {
           <h4>{message}</h4>
         </div>
         <Prediction datos={datos} />
-        {datos && <Graphic datos={datos} /> }
+
+        {datos && <Graphic datos={datos} />}
+
       </article>
     </section>
   );

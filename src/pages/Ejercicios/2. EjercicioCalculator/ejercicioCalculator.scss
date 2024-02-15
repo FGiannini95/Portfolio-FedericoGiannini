@@ -9,7 +9,7 @@
 .sectionCalculator {
 
   background-color: rgb(83, 133, 116);
-  min-height: 90vh;
+  min-height: 100vh;
 
   .ejCalculator {
     width: 60vw;
@@ -43,6 +43,9 @@
 @media (max-width: 600px) {
   .sectionCalculator{
     .ejCalculator{
+      h3{
+        font-size: 1rem;
+      }
       &__divInput {
         input {
           min-width: 3rem;
@@ -53,6 +56,7 @@
         button {
           margin: 0.5rem;
         }
+   
       }
     }
   }

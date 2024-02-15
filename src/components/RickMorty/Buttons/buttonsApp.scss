@@ -1,11 +1,22 @@
-.sectionButton{
+.sectionButton {
   button {
     border-radius: 1rem;
     border: 2px solid white;
-    padding: .5rem;
+    padding: 0.5rem;
     margin: 1rem;
     background-color: transparent;
     color: white;
     font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      margin: 0.5rem;
+    }
   }
 }

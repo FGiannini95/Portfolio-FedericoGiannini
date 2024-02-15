@@ -11,8 +11,8 @@ import { dataProyectos } from "../data/dataProyectos";
 import { OneExercise } from "../pages/OneExercise/OneExercise";
 import { Practice } from "../pages/Practice/Practice";
 import { CV } from "../pages/CV/CV";
-import { Container } from "react-bootstrap";
 import { OneProject } from "../pages/OneProject/OneProject";
+import { Region } from "../components/Region/Region";
 
 export const Portfolio = () => {
   return (
@@ -37,6 +37,11 @@ export const Portfolio = () => {
           path="/oneProject/:id"
           element={<OneProject dataProyectos={dataProyectos}  />}
         />
+
+        <Route
+          path="/region/:region" element={<Region/>}
+        />
+
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

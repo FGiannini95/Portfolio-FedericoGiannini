@@ -7,6 +7,7 @@ import { EjercicioFarmahouse } from '../Ejercicios/4. EjercicioFarmhouse/Ejercic
 import { EjercicioWeather } from '../Ejercicios/6. EjercicioApiWeather/EjercicioWeather'
 import { EjercicioRickMorty } from '../Ejercicios/7. EjercicioApyRick&Mortin/EjercicioRickMorty'
 import { EjercicioMarvel } from '../Ejercicios/5. EjercicioApiMarvel/EjercicioMarvel'
+import { EjercicioCountries } from '../Ejercicios/8. EjercicioApiCountries/EjercicioCountries'
 
 export const OneExercise = ({data}) => {
   const {id} = useParams()
@@ -18,9 +19,10 @@ export const OneExercise = ({data}) => {
     {id === "2" && <EjercicioCalculator/>}
     {id === "3" && <EjercicioConverter/>}
     {id === "4" && <EjercicioFarmahouse/>}
-    {id === "5" && <EjercicioMarvel/>}
+    {/* {id === "5" && <EjercicioMarvel/>} */}
     {id === "6" && <EjercicioWeather/>}
     {id === "7" && <EjercicioRickMorty/>}
+    {id === "8" && <EjercicioCountries/>}
     </div>
   )
 }

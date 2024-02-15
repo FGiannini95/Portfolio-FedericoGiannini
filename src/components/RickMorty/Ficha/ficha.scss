@@ -1,11 +1,12 @@
 .rickyMortyFicha{
   background-color: white;
-  width: 25vw;
+  min-width: 25vw;
   border-radius: 1rem;
   padding: 1rem;
   
   img{
     border-radius: 50%;
     width: 20vw;
+    min-width: 100px;
   }
 }

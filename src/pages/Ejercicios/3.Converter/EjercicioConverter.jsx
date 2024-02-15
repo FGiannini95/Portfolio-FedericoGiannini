@@ -122,7 +122,7 @@ export const EjercicioConverter = () => {
   };
 
   return (
-    <section className="sectionConverter d-flex flex-column align-items-center pb-5">
+    <section className="sectionConverter d-flex flex-column align-items-center">
       <div className="p-3">
         <Button variant="dark" onClick={() => navigate("/practice")}>
           Go back to all exercises
