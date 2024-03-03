@@ -1,8 +1,5 @@
 .section1 {
   min-height: 100vh;
-  background-image: url('../../../public/assets/Contact/fedeeee.jpg');
-
- 
   
   .cardHome {
     &__title {
@@ -38,25 +35,25 @@
 }
 
 
-@media (max-width: 610px) {
-  .cardHome {
-    &__title {
-      font-size: 3rem !important;
-    }
-    &__sub{
-      font-size: 1.5rem !important;
-    }
-  }
-}
+// @media (max-width: 610px) {
+//   .cardHome {
+//     &__title {
+//       font-size: 3rem !important;
+//     }
+//     &__sub{
+//       font-size: 1.5rem !important;
+//     }
+//   }
+// }
 
-@media (max-width: 420px) {
-  .cardHome {
-    &__title {
-      font-size: 2.2rem !important;
-    }
-    &__sub{
-      font-size: 1.1rem !important;
-    }
-  }
-}
+// @media (max-width: 420px) {
+//   .cardHome {
+//     &__title {
+//       font-size: 2.2rem !important;
+//     }
+//     &__sub{
+//       font-size: 1.1rem !important;
+//     }
+//   }
+// }
 

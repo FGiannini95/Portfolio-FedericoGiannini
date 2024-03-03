@@ -5,7 +5,7 @@ import './navbarPortoflio.scss'
 
 export const NavbarPortfolio = () => {
   return (
-    <Navbar bg="body-tertiary" expand="sm" className='d-flex justify-content-center' >
+    <Navbar bg="body-tertiary" expand="sm" className='navPpl d-flex justify-content-center' >
       {/* <Navbar.Brand href="/">Home</Navbar.Brand>*/}
       <Navbar.Toggle aria-controls="navbarNav" className="mx-auto"/> 
       <Navbar.Collapse id="navbarNav" className="justify-content-center">

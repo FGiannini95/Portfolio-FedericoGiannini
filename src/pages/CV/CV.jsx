@@ -9,7 +9,7 @@ export const CV = () => {
       xs={12}
       className="justify-content-center text-center align-items-center pb-5 viewCv__structure"
     >
-      <iframe className="viewCv__pdf" src="/public/assets/About/CV.FG.pdf" frameBorder="0"></iframe>
+      <iframe className="viewCv__pdf" src="/assets/About/FedericoGiannini.CV.pdf" frameBorder="0"></iframe>
     </Col>
     </Row>
   );

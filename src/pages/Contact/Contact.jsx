@@ -25,6 +25,8 @@ export const Contact = () => {
               as={Link}
               to="https://www.linkedin.com/in/federico-giannini95/"
               className="link"
+              target="_blank"
+              rel="noopener noreferrer" 
             >
               <FaLinkedin />
             </Nav.Link>
@@ -32,6 +34,8 @@ export const Contact = () => {
               as={Link}
               to="https://github.com/FGiannini95"
               className="link"
+              target="_blank"
+              rel="noopener noreferrer" 
             >
               <FaGithub />
             </Nav.Link>

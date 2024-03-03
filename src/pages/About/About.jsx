@@ -4,10 +4,6 @@ import "./about.scss";
 
 export const About = () => {
 
-  const handleDownload = () => {
-    window.open("/public/assets/About/CV.FG.pdf"); // Abre una nueva ventana con el archivo PDF
-  };
-
   return (
     <section className="sectionAbout pb-5">
       <div className="d-flex justify-content-center align-items-center">
@@ -42,9 +38,11 @@ export const About = () => {
             traveling and discovering new cultures.
           </p>
           <div className="text-center">
-            <Button variant="dark" className="m-3" onClick={handleDownload}>
+            <Link to="/cv">
+              <Button variant="dark" className="m-3">
                 Open resume
               </Button>
+            </Link>
           </div>
         </div>
       </div>

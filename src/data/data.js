@@ -29,11 +29,11 @@ export const dataEjercicios =  [
     // name: 'Rick&Morty',
     image: 'ej07.rickmortin.jpg'
   },
-  {
-    id:8,
-    // name: 'Countries',
-    image: 'ej08.countries.jpg'
-  }
+  // {
+  //   id:8,
+  //   // name: 'Countries',
+  //   image: 'ej08.countries.jpg'
+  // }
 ]
 
 
