@@ -1,6 +1,6 @@
 .section1 {
   min-height: 100vh;
-  
+
   .cardHome {
     &__title {
       font-size: 6rem;
@@ -28,32 +28,31 @@
     &__title {
       font-size: 4.5rem !important;
     }
-    &__sub{
+    &__sub {
       font-size: 2.2rem !important;
+      white-space: normal;
+      word-break: break-word;
+      max-width: 100%;
     }
   }
 }
 
+@media (max-width: 660px) {
+  .cardHome {
+    &__title {
+      font-size: 3.5rem !important;
+    }
+    &__sub {
+      font-size: 1.5rem !important;
+      white-space: normal;
+    }
+  }
+}
 
-// @media (max-width: 610px) {
-//   .cardHome {
-//     &__title {
-//       font-size: 3rem !important;
-//     }
-//     &__sub{
-//       font-size: 1.5rem !important;
-//     }
-//   }
-// }
-
-// @media (max-width: 420px) {
-//   .cardHome {
-//     &__title {
-//       font-size: 2.2rem !important;
-//     }
-//     &__sub{
-//       font-size: 1.1rem !important;
-//     }
-//   }
-// }
-
+@media (max-width: 480px) {
+  .cardHome {
+    &__sub {
+      font-size: 1rem !important;
+    }
+  }
+}
