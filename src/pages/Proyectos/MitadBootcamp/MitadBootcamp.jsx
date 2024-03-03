@@ -24,14 +24,18 @@ export const MitadBootcamp = () => {
             as={Link}
             to="https://www.youtube.com/watch?v=jEv2Jc8g-5U&t=1s&ab_channel=Socratech"
             className="link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <MdOndemandVideo />
           </Nav.Link>
 
           <Nav.Link
             as={Link}
-            to="https://github.com/FGiannini95"
+            to="https://github.com/FGiannini95/Proyecto-Mitad-Bootcamp-SocraTech"
             className="link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaGithub />
           </Nav.Link>
