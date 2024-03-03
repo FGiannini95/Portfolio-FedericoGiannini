@@ -67,12 +67,14 @@ export const EjercicioCalculator = () => {
           value={num1}
           onChange={handleChange1}
           autoFocus
+          inputMode="numeric"
         />
         <h4>{operator}</h4>
         <input 
           type="text"
           value={num2}
           onChange={handleChange2}
+          inputMode="numeric"
         />
       </div>
       <div className='p-3 ejCalculator__divOperator'>

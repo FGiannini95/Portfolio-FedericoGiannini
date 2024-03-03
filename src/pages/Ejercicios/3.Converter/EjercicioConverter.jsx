@@ -134,7 +134,13 @@ export const EjercicioConverter = () => {
         </div>
         <div className="ejConverter__divInput">
           <h4>{conversion}</h4>
-          <input type="text" value={value} autoFocus onChange={handleChange} />
+          <input
+            type="text"
+            value={value}
+            autoFocus
+            onChange={handleChange}
+            inputMode="numeric"
+            />
         </div>
         <div className="ejConverter__divTypeConvertion p-3">
           <button onClick={() => showType(1)}>Temperature</button>
