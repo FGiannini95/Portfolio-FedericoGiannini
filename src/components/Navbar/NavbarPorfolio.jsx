@@ -14,7 +14,7 @@ export const NavbarPortfolio = () => {
   return (
     <Navbar bg="body-tertiary" expand="sm" className='navPpl d-flex justify-content-center' expanded={expanded} >
       {/* <Navbar.Brand href="/">Home</Navbar.Brand>*/}
-      <Navbar.Toggle aria-controls="navbarNav" className="mx-auto" onClick={()=> setExpanded(!expanded)}/> 
+      <Navbar.Toggle aria-controls="navbarNav" className="mx-auto m-3" onClick={()=> setExpanded(!expanded)}/> 
       <Navbar.Collapse id="navbarNav" className="justify-content-center">
         <Nav className="mr-auto d-flex align-items-center" onSelect={handleSelect}>
           <Nav.Link as={Link} to="/" className="active" onClick={()=> setExpanded(false)}>Home</Nav.Link>
